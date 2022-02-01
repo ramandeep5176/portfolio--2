@@ -192,6 +192,7 @@ Navbar
 .nav-links {
   display: none;
 }
+
 .nav {
   height: 5rem;
   padding: 1rem;
@@ -226,7 +227,7 @@ Navbar
   }
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-self: end;
     justify-items: center;
     -moz-column-gap: 2rem;

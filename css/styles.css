@@ -69,6 +69,7 @@ body {
 }
 ul {
   list-style-type: none;
+  font-size: 1.2rem;
 }
 a {
   text-decoration: none;
@@ -102,6 +103,9 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
+  /* letter-spacing: 0.05rem; */
+  /* word-spacing: 0.15rem; */
+  font-size: 1.2rem;
   color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
@@ -422,6 +426,8 @@ About
   text-transform: capitalize;
   color: var(--clr-grey-5);
   /*  */
+}
+.about-p {
 }
 @media screen and (min-width: 992px) {
   .about-center {

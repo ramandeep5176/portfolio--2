@@ -603,7 +603,7 @@ Projects
 Connect
 ===============
 */
-.connect {
+/* .connect {
   min-height: 40vh;
   position: relative;
   padding: 10rem 0 5rem 0;
@@ -684,7 +684,7 @@ Connect
     0 99%,
     0 4%
   );
-}
+} */
 
 /*
 =============== 
@@ -773,7 +773,7 @@ Skills
 Timeline
 ===============
 */
-.timeline-center {
+/* .timeline-center {
   width: 80vw;
   max-width: 40rem;
 }
@@ -828,7 +828,7 @@ Timeline
 }
 .timeline-item:nth-child(odd) .number {
   left: 100%;
-}
+} */
 /*
 =============== 
 Blog
@@ -851,6 +851,7 @@ Blog
   left: 0;
   width: 100%;
   height: 100%;
+  box-shadow: 0.01rem -0rem 1rem 1rem hsla(34, 18%, 18%, 0.092);
   border-radius: var(--radius);
   -webkit-transform: translate3d(0, 0, 0);
   visibility: visible;
